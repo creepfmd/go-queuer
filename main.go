@@ -26,7 +26,7 @@ func main() {
 		os.Setenv("EXPIRE_TIME", os.Getenv("EXPIRE_TIME")+"000000000")
 	}
 	if os.Getenv("MONGO_URL") == "" {
-		os.Setenv("MONGO_URL", "docker.lan.smclinic.ru")
+		os.Setenv("MONGO_URL", "docker.rutt.io")
 	}
 	if os.Getenv("AMQP_URL") == "" {
 		os.Setenv("AMQP_URL", "amqp://mqadmin:mqadmin@dev-rabbit-1//")
